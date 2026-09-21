@@ -1,1 +1,0 @@
-const button=document.querySelector('.menu');const nav=document.querySelector('.topbar nav');if(button&&nav){button.setAttribute('aria-expanded','false');button.addEventListener('click',()=>{const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));});}
