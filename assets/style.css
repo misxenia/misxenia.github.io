@@ -50,5 +50,5 @@
 
 /* Research theme figures */
 .theme-figure{margin:0 0 14px;max-width:75%}
-.theme-figure img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid var(--rule)}
+.theme-figure img,.theme-figure video{width:100%;height:auto;display:block;border-radius:8px;border:1px solid var(--rule)}
 .theme-figure figcaption{margin-top:8px;font-size:12px;color:var(--muted);line-height:1.4}
