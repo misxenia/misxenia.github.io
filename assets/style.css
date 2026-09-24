@@ -44,8 +44,9 @@
 #software{clear:both}
 @media(max-width:700px){.theme-list{grid-template-columns:1fr;gap:24px;margin-top:28px;padding-bottom:34px}}
 
-/* Public health, as its own card under Software */
-.theme-list-solo{grid-template-columns:minmax(0,1fr);max-width:420px;margin-top:0;padding-bottom:0}
+/* Public health, styled like the Software block above it */
+#public-health .theme-figure{max-width:420px}
+#public-health .tags{margin-top:14px}
 
 /* Research theme figures */
 .theme-figure{margin:0 0 14px;max-width:75%}
