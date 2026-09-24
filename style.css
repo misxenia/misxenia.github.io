@@ -43,3 +43,12 @@
 .theme-list .theme .tags{margin-top:14px}
 #software{clear:both}
 @media(max-width:700px){.theme-list{grid-template-columns:1fr;gap:24px;margin-top:28px;padding-bottom:34px}}
+
+/* Public health, styled like the Software block above it */
+#public-health .theme-figure{max-width:420px}
+#public-health .tags{margin-top:14px}
+
+/* Research theme figures */
+.theme-figure{margin:0 0 14px;max-width:75%}
+.theme-figure img,.theme-figure video{width:100%;height:auto;display:block;border-radius:8px;border:1px solid var(--rule)}
+.theme-figure figcaption{margin-top:8px;font-size:12px;color:var(--muted);line-height:1.4}
