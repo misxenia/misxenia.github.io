@@ -1,2 +1,1 @@
 const button=document.querySelector('.menu');const nav=document.querySelector('.topbar nav');if(button&&nav){button.setAttribute('aria-expanded','false');button.addEventListener('click',()=>{const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));});}
-document.querySelectorAll('video[data-play-once]').forEach((video)=>{video.addEventListener('ended',()=>{const still=video.nextElementSibling;video.hidden=true;if(still&&still.classList.contains('play-once-still')){still.hidden=false;}});});
